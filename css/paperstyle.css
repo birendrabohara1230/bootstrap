@@ -1,0 +1,32 @@
+#paper-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#paper-container p, h5{
+    margin: 0;
+    padding: 0;
+}
+
+#paper-fourth-sem a{
+    text-decoration: none;
+    color: black;
+}
+
+#paper-fourth-sem a:hover{
+    color: blue;
+}
+
+#paper-model{
+    margin-right: 20px;
+    margin-left: 4px;
+}
+
+#paper-year{
+    margin-bottom: 10px;
+}
+#paper-year button{
+    border: 2px solid blue;
+    font-size: small;
+    color: white;
+}

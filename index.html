@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <!-- BootStrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!--Custome Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar  navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">FWUNOTES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active  text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Departments
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#our-team-title">Science & Technology</a></li>
+              <li><a class="dropdown-item" href="#">Engineering</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Management</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Slider Section -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://placeimg.com/1080/500/tech" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://placeimg.com/1080/500/tech" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://placeimg.com/1080/500/tech" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- Container -->
+
+  <div class="container-fluid">
+
+    <div class="row rounded" id="our-team-title">
+      <div class="col-12 text-center pt-4 pb-4  text-white">
+        <h1>Bsc. CSIT</h1>
+      </div>
+    </div>
+
+    <!-- Science and Technology Departments -->
+    <div class="row justify-content-center" id="csit-sem-sub">
+      <div class="col-lg-3 shadow mt-3">
+        <h4>First Semester</h4>
+        <ol>
+          <li><a href="">Compulsory English </a></li>
+          <li><a href="">Information Technology Fundamentals</a></li>
+          <li><a href="">Calculus And Analytical Geometry</a></li>
+          <li><a href="">Electronic Physics</a></li>
+          <li><a href="">Programming Fundamentals And C Programming</a></li>
+        </ol>
+      </div>
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Second Semester</h4>
+        <ol>
+          <li><a href="">Linear Algebra</a></li>
+          <li><a href="">Mechanics And Electrodynamics</a></li>
+          <li><a href="">Digital Logic Design</a></li>
+          <li><a href="">Microprocessor System</a></li>
+          <li><a href="">Data Structure And Algorithms</a></li>
+        </ol>
+      </div>
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Third Semester</h4>
+        <ol>
+          <li><a href="">Computer Architecture</a></li>
+          <li><a href="">Discrete Structure</a></li>
+          <li><a href="">Introduction To Management</a></li>
+          <li><a href="csit/3sem/c++/2078.html">Object Oriented Programming with C++</a></li>
+          <li><a href="">Operating System</a></li>
+          <li><a href="">Statistics and Probability</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row justify-content-center" id="csit-sem-sub">
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Fourth Semester</h4>
+        <ol>
+          <li><a href="">System Analysis and Design</a></li>
+          <li><a href="">Numerical Methods</a></li>
+          <li><a href="">Database Management System</a></li>
+          <li><a href="">Applied Statistics</a></li>
+          <li><a href="">Data Communication and Networks</a></li>
+          <li><a href="">Theory Of Computation</a></li>
+        </ol>
+      </div>
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Fifth Semester</h4>
+        <ol>
+          <li><a href="">Computer Graphics</a></li>
+          <li><a href="">Data Analysis and Algorithms</a></li>
+          <li><a href="">Compiler Design</a></li>
+          <li><a href="">Simulation and Modeling</a></li>
+          <li><a href="">Artificial Intelligence</a></li>
+          <li><a href="">Web Technology I</a></li>
+        </ol>
+      </div>
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Sixth Semester</h4>
+        <ol>
+          <li><a href="">Introduction to Cryptography</a></li>
+          <li><a href="">Java Progamming I</a></li>
+          <li><a href="">Research Methodology for CS</a></li>
+          <li><a href="">Software Engineering</a></li>
+          <li><a href="" href="">Web Tech II</a></li>
+          <li><a href="" href="">Minor Project I</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row justify-content-center" id="csit-sem-sub">
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Seventh Semester</h4>
+        <ol>
+          <li><a href="">E-commerce</a></li>
+          <li><a href="">Advanced Java Programming</a></li>
+          <li><a href="">Object Oriented Analysis and Design</a></li>
+          <li><a href="">Minor Project II</a></li>
+          <li><a href="">Database Administration (Elective I)</a></li>
+          <li><a href="">Data Mining and Warehousing (Elective II)</a></li>
+        </ol>
+      </div>
+      <div class="col-lg-3 shadow mt-3">
+        <h4>Eight Semester</h4>
+        <ol>
+          <li><a href="">Parallel Computing</a></li>
+          <li><a href="">Internship</a></li>
+          <li><a href="">Advanced Database Design (Elective III)</a></li>
+          <li><a href="">Distributed Database Management System (Elective IV)</a></li>
+          <li><a href="">E-Business and E-Governance (Elective V)</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="row rounded" id="our-team-title">
+      <div class="col-12 text-center pt-4 pb-4  text-white">
+        <h1 id="about-us">FAQ'S</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8 ">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How Should I Contribute In This Project By Adding Materials or By Source Code?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">You can contribute by both ways i.e by providing materials to us or by adding lines of source code in this 
+              project. Send us materials using Gmail or in what's app (you can get gmail as well as contact number in Contact Section of our website) <br>
+              Source code of this project is publicly available in github. For this visit the given link <a href="https://github.com/birendrabohara1230/bootstrap.git"><i>click here</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- Container First Section Title -->
+    <div class="row rounded" id="our-team-title">
+      <div class="col-12 text-center pt-4 pb-4  text-white">
+        <h1 id="about-us">Our Team</h1>
+      </div>
+    </div>
+
+    <!-- Container Second Section -->
+
+    <div class="row" id="team-section">
+      <div class="col-md-3 text-center">
+        <img src="images/birendra.jpg" width="200px" alt="" class="img-fluid rounded">
+        <h5>Birendra Bohara</h5>
+        <h6>FWU Bsc. CSIT 2076</h6>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+        <a href=""><i class="bi bi-github"></i></i></i></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/indra.jpg" width="200px" alt="" class="img-fluid rounded">
+        <h5>Indra Kumar Ayer</h5>
+        <h6>FWU Bsc. CSIT 2076</h6>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/nishan.jpg" width="200px" alt="" class="img-fluid rounded">
+        <h5>Nishan Singh</h5>
+        <h6>FWU Bsc. CSIT 2076</h6>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/dilip.jpg" width="200px" alt="" class="img-fluid rounded">
+        <h5>Dilip Bist</h5>
+        <h6>FWU Bsc. CSIT 2076</h6>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/rajeshkarki.jpg" width="200px" alt="" class="img-fluid rounded">
+        <h5>Rajesh Karki</h5>
+        <h6>FWU Bsc. CSIT 2076</h6>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <img src="images/gaurav.jpg" width="200px" alt="" class="img-fluid rounded">
+        <h5>Gaurav Bhatt</h5>
+        <h6>FIBSS SEE 2079</h6>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+      </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <div class="row justify-content-center rounded" id="footer-section">
+      <div class="col-md-6 text-center">Get connected with us on social networks:</div>
+      <div class="col-md-5 text-center">
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+        <a href=""><i class="bi bi-github"></i></i></a>
+        <a href=""> <i class="bi bi-twitter"></i></i></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href=""> <i class="bi bi-instagram"></i></i></a>
+      </div>
+    </div>
+
+    <div class="row justify-content-center" id="footer-section-2">
+      <div class="col-md-3 mb-3">
+        <h4>COMPANY NAME</h4>
+        <hr class="mb-4">
+        Here you can use rows and columns to organize your footer content.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+      <div class="col-md-2 mb-3" id="footer-useful-link">
+        <h4>USEFUL LINKS</h4>
+        <hr class="mb-4">
+        <a href="#our-team-title">CSIT</a> <br>
+        <a href="">General Bsc</a> <br>
+        <a href="">Engineering</a> <br>
+        <a href="">BBA</a> <br>
+        <a href="">BBS</a> <br>
+      </div>
+      <div class="col-md-3 mb-3" id="footer-contact">
+        <h4>CONTACT</h4>
+        <hr class="mb-4">
+        <div><i class="bi bi-house-door p-2"></i>Mahendranagar, New Katan </div>
+        <div><i class="bi bi-envelope-at-fill p-2"></i>birendrabohara2074@gmail.com</div>
+        <div><i class="bi bi-telephone-forward p-2"></i>+9979867315959</div>
+      </div>
+    </div>
+
+    <div class="row text-center" id="footer-copyright-section">
+      <div class="col-12 text-white">© 2022 Copyright: fwunotes.xyz</div>
+    </div>
+
+  </div> <!--Ending of Container-fluid-->
+
+  <!-- BootStrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
