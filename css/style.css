@@ -17,12 +17,12 @@
 }
 
 
-#our-team-title{
+#our-team-title, #faq-section{
     background-color: #0cb4ce;
     margin: 40px 0px;
     font-size: 30px;
 }
-#our-team-title h1{
+#our-team-title h1, #faq-section h1{
     font-size: 25px;
 }
 
