@@ -19,18 +19,21 @@ h5 {
 }
 
 #paper-model {
-    margin-right: 20px;
-    margin-left: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #paper-year {
     margin-bottom: 10px;
     color: black;
+    margin-left: 93px;
 }
+
 
 #paper-year button {
     border: 2px solid blue;
-    font-size: small;
+    font-size: 10px;
+    margin-bottom: 5px;
 }
 
 .paper-year-style {
