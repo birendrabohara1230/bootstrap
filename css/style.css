@@ -1,44 +1,55 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,500&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+.navbar {
     background-color: #0cb4ce !important;
 }
 
 
 /* Our Team Section */
-#team-section{
+#team-section {
     margin: 80px 200px;
 }
 
-#team-section i{
+#team-section i {
     margin-right: 6px;
     font-size: 20px;
 }
 
-#team-section a i{
-   text-decoration: none;
+#team-section a i {
+    text-decoration: none;
 }
 
-#team-section div{
+#team-section div {
     margin-bottom: 35px;
 }
 
 
-#our-team-title, #faq-section{
+#our-team-title,
+#faq-section {
     background-color: #0cb4ce;
     margin: 40px 0px;
     font-size: 30px;
 }
-#our-team-title h1, #faq-section h1{
+
+#our-team-title h1,
+#faq-section h1 {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 1200px){
-    #team-section{
+@media only screen and (max-width: 1200px) {
+    #team-section {
         margin: 80px 130px;
     }
 }
 
-@media only screen and (max-width: 950px){
-    #team-section{
+@media only screen and (max-width: 950px) {
+    #team-section {
         margin: 80px 60px;
     }
 }
@@ -46,79 +57,79 @@
 
 /* Footer Section */
 
-#footer-section{
+#footer-section {
     background-color: #21d192;
     padding: 15px 10px;
     color: white;
     font-size: 20px;
 }
 
-#footer-section i{
+#footer-section i {
     margin-left: 15px;
 }
 
-#footer-section a{
+#footer-section a {
     color: white;
 }
 
-#footer-section-2{
+#footer-section-2 {
     padding-bottom: 60px;
     background-color: #eceff1;
     padding-top: 80px;
 }
 
-#footer-section-2 hr{
+#footer-section-2 hr {
     width: 60px;
-    background-color: #7c4dff; 
+    background-color: #7c4dff;
     height: 2px
 }
 
-#footer-section-2 div a{
+#footer-section-2 div a {
     text-decoration: none;
     margin-bottom: 15px;
     color: black;
 }
 
-#footer-copyright-section{
+#footer-copyright-section {
     background-color: #BDBFC1;
     padding-top: 15px;
     padding-bottom: 50px;
     font-size: 20px;
 }
 
-#footer-contact div{
+#footer-contact div {
     padding-bottom: 10px;
 }
 
-#footer-useful-link a:hover{
+#footer-useful-link a:hover {
     color: blue;
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1170px){
-    #footer-contact{
+@media only screen and (max-width: 1170px) {
+    #footer-contact {
         font-size: 10px;
     }
 }
 
 
 /* Science and Technology department */
-#csit-sem-sub{
+#csit-sem-sub {
     margin: 30px 10px;
 }
 
-#csit-sem-sub div{
+#csit-sem-sub div {
     border: 2px solid white;
     margin-left: 5px;
 }
 
 
-#csit-sem-sub ol li a{
+#csit-sem-sub ol li a {
     text-decoration: none;
     color: black;
 }
 
-#csit-sem-sub ol li a:hover{
+#csit-sem-sub ol li a:hover {
     color: blue;
     cursor: pointer;
 }

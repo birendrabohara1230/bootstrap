@@ -74,14 +74,14 @@
                     <a href="2074.html"><button type="button" class="btn">2074</button></a>
                     <a href="2075.html"><button type="button" class="btn">2075</button></a>
                     <a href="2076.html"><button type="button" class="btn">2076</button></a>
-                    <a href="2078.html"><button type="button" class="btn">2078</button></a>
-                    <a href="#"><button type="button" class="btn  paper-year-style">2079</button></a>
+                    <a href="#"><button type="button" class="btn  paper-year-style">2078</button></a>
+                    <a href="2079.html"><button type="button" class="btn ">2079</button></a>
                 </div>
             </div>
 
             <div class="col-lg-8 col-11 text-center border shadow mb-4" id="paper-model">
                 <h5>FAR-WESTERN UNIVERSITY</h5>
-                <p>End-Term Examination-2079</p>
+                <p>End-Term Examination-2078</p>
                 <p>Compiler Design (CSIT.313)</p>
                 <div class="row justify-content-between">
                     <div class="col-md-5 text-start mb-4">
@@ -102,55 +102,80 @@
                 </b>
                 <div class="text-start">
                     <ol>
-                        <li>What are the two parts of a compilation? Explain briefly.</li>
-                        <li>Write a regular expression for an identifier.</li>
-                        <li>What are the problems with top down parsing>?</li>
-                        <li>Define Lr(0) items of production A->XYZ.</li>
-                        <li>Draw the DAG for the statement a = (a*b+c)-(a*b+c).</li>
-                        <li>Give the main idea of dead code elimination and constant folding.</li>
-                        <li>What is a sential? What is its usage?</li>
-                        <li> Explain synthesized attribute and inherited attribute with suitable examples.</li>
+                       <li>Define the terms Language Translator and Compiler.</li>
+                       <li>What is DAG? Mention its application in compiler design.</li>
+                       <li>What is difference between Parse Tree and Annotated Parse Tree?</li>
+                       <li>What is code optimization? Give name of any two optimization techniques.</li>
+                       <li>What is do you mean by left factoring in the grammars? Explain.</li>
+                       <li>What is handle in bottom up parsing? Explain.</li>
+                       <li>What does a semantica analysis do?</li>
                         <h5 class="text-center">Group B</h5>
                         <b>
                             <p class="text-center">Attempt any five questions. (Short questions) (5x8=40)</p>
                         </b>
-                        <li>Write the rule to eliminate left recursion in a grammar. Prepare and eliminate the left recursion for the grammar. 
-                            <br>
-                            S->Aa|b <br>
-                            A-> Ac|Sd|ϵ
+                        <li>Discuss the issues in design of simple code generator.</li>
+                        <li>Define syntax directed definition. Construct annotated parse tree for the input expression (5*3+2)*5 according to the following syntax directed definition. <br>
+                        <table class="table table-bordered">
+                            <tr>
+                                <td><b>Production</b></td>
+                                <td><b>Semantic Rule</b></td>
+                            </tr>
+                            <tr>
+                                <td>L->En</td>
+                                <td>Print E.val</td>
+                            </tr>
+                            <tr>
+                                <td>E->E + T</td>
+                                <td>E.val -> E.val + T.val</td>
+                            </tr>
+                            <tr>
+                                <td>E -> T</td>
+                                <td>E.val -> T.val</td>
+                            </tr>
+                            <tr>
+                                <td>T -> T * F</td>
+                                <td>T.val -> T.val * F.val</td>
+                            </tr>
+                            <tr>
+                                <td>T -> F</td>
+                                <td>T.val -> F.val</td>
+                            </tr>
+                            <tr>
+                                <td>F -> (E)</td>
+                                <td>F.val -> (E.val)</td>
+                            </tr>
+                            <tr>
+                                <td>F -> digit</td>
+                                <td>F.val -> digit.lexval</td>
+                            </tr>
+                        </table>
                         </li>
-                        <li>Point out why is buffering used in lexical analysis? What are the commonly used buffering methods?</li>
-                        <li>Calculate the first and follow functions for the given grammar <br>
-                            S->A <br>
-                            A->aB|Ad <br>
-                            B->b <br>
-                            C->g 
-                        </li>
-                        <li>What do you mean by three-address code representation? Explain with example.</li>
-                        <li>What is type checking? Discuss static and dynamic checking of types.</li>
-                        <li>Distingiush between synthesized & inherited attributes.</li>
+                        <li>Why are regular expressio used in token specification? Write the regular expression to specify the identifier like in C.</li>
+                        <li>Describe an Algorithm used for eliminating the left recursion. Eliminate letf recursion from the grammar: S -> Aa|b, A -> Ac|Sd|a.</li>
+                        <li>Explain with a neat diagram, the model of a table drive predictive parser.</li>
+                        <li>Translate the arithmetic expression: a+ -(b+c) into quadruples, triples and indirect triples.</li>
                         <h5 class="text-center">Group C</h5>
                         <b>
                             <p class="text-center">Attempt any three questions. (Long questions)</p>
                         </b>
-                        <li>Explain in brief about different principle sources of optimization techniques with suitable examples.</li>
-                   <li>Write about the following in detail <br>
-                        <ol type="a">
-                            <li>Left factoring</li>
-                            <li>Dead code optimization</li>
-                            <li>Token and Pattern</li>
-                        </ol>
-                    </li>
-                    <li>a. Consider the following grammar <br>
-                        S->AS|b <br>
-                        A->SA|a <br>
-                        Construct the SLR parse table for the grammar. <br>
-                        b. Show the actions of the praser for the input string "abab".
-                    </li>
-                    <li>a. Write the quadruple, triple, indirect triple for the statement <br>
-                        a= b*-c+b*-c <br>
-                        b. Explain the role of intermediate code generator in compilation process.
-                    </li>
+                        <li>Discuss the phases of a compiler indicating the inputs and outputs of each phase in translating the statement "amount=principle + rate * 36.0".</li>
+                        <li>Given the grammar: <br>
+                            S -> aABb <br>
+                            A -> c|ε <br>
+                            B -> d|ε <br>
+                            i) Compute FIRST and FOLLOW sets <br>
+                            ii) Construct the predictive parsing table <br>
+                            iii) Show the move made by predictive parser on the input: acdb
+                        </li>
+                        <li>Construct the CLR parsing table for the given Grammar <br>
+                            E -> BB <br>
+                            B -> cB/d <br>
+                        </li>
+                        <li>Explain the following code optimization techniques with examples. <br>
+                            a) Constant propagation <br>
+                            b) Strength reduction <br>
+                            c) Code Motion
+                        </li>
                     </ol>
                 </div>
             </div>
