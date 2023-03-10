@@ -21,6 +21,7 @@ h5 {
 #paper-model {
     margin-right: 10px;
     margin-left: 10px;
+    border-radius: 20px;
 }
 
 #paper-year {
