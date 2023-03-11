@@ -10,7 +10,6 @@
     background-color: #0cb4ce !important;
 }
 
-
 /* Our Team Section */
 #team-section {
     margin: 80px 200px;
@@ -62,6 +61,7 @@
     padding: 15px 10px;
     color: white;
     font-size: 20px;
+    margin: 0px 2px;
 }
 
 #footer-section i {
@@ -92,9 +92,11 @@
 
 #footer-copyright-section {
     background-color: #BDBFC1;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 20px;
+    margin: 0px 2px;
+    border-radius: 10px;
 }
 
 #footer-contact div {
@@ -108,7 +110,7 @@
 
 @media only screen and (max-width: 1170px) {
     #footer-contact {
-        font-size: 10px;
+        /*  */
     }
 }
 
